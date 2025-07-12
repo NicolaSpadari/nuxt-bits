@@ -1,7 +1,7 @@
 {
 	"name": "nuxt-bits",
 	"type": "module",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"packageManager": "pnpm@10.13.1",
 	"description": "Vue bits integration for Nuxt 3",
 	"license": "MIT",
