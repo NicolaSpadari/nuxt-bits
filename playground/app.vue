@@ -16,7 +16,7 @@
 		/>
 
 		<BitsCurvedLoop
-			marquee-text="Be ✦ Creative ✦ With ✦ Vue ✦ Bits ✦"
+			marquee-text="Be ✦ Creative ✦ With ✦ Nuxt ✦ Bits ✦"
 			:speed="2"
 			:curve-amount="400"
 			direction="left"
