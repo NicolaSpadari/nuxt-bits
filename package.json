@@ -32,23 +32,22 @@
 		"lint": "eslint . --fix"
 	},
 	"dependencies": {
-		"@nuxt/kit": "^3.17.6"
+		"@nuxt/kit": "^3.17.6",
+		"@nuxtjs/tailwindcss": "^6.14.0",
+		"@vueuse/nuxt": "^13.5.0"
 	},
 	"devDependencies": {
 		"@antfu/eslint-config": "^4.16.2",
-		"@hypernym/nuxt-gsap": "^2.4.3",
 		"@nuxt/devtools": "^2.6.2",
 		"@nuxt/eslint": "1.5.2",
 		"@nuxt/icon": "1.15.0",
 		"@nuxt/image": "1.10.0",
 		"@nuxt/module-builder": "^1.0.1",
 		"@nuxt/schema": "^3.17.6",
-		"@nuxtjs/tailwindcss": "^6.14.0",
 		"@types/matter-js": "^0.19.8",
 		"@types/node": "latest",
 		"@types/three": "^0.178.1",
 		"@vueuse/core": "^13.5.0",
-		"@vueuse/nuxt": "^13.5.0",
 		"changelogen": "^0.6.2",
 		"eslint": "^9.30.1",
 		"gsap": "^3.13.0",
