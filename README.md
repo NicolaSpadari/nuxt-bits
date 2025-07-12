@@ -25,6 +25,30 @@ npx nuxi module add nuxt-bits
 
 That's it! You can now use Nuxt Bits in your Nuxt app ✨
 
+## Usage
+
+Just refer to the [official documentation](https://vue-bits.dev/). Instead of installing components manually or with jsrepo, simply import the component prefixed with "Bits", for example:
+
+- Split Text -> BitsSplitText
+- True Focus -> BitsTrueFocus
+- and so on...
+
+Component prefix in customizable in the nuxt config, by creating a custom configuration:
+
+```ts
+// nuxt.config.ts
+
+export default defineNuxtConfig({
+	modules: ["nuxt-bits"],
+	bits: {
+		prefix: "Foo" // BitsSplitText -> FooSplitText
+	}
+	//...
+})
+```
+
+Find out an example in the [playground](https://github.com/NicolaSpadari/nuxt-bits/blob/main/playground/app.vue)
+
 ## Contribution
 
 <details>
@@ -53,13 +77,17 @@ That's it! You can now use Nuxt Bits in your Nuxt app ✨
 </details>
 
 [npm-version-src]: https://img.shields.io/npm/v/my-module/latest.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-version-href]: https://npmjs.com/package/my-module
+[npm-version-href]: https://npmjs.com/package/nuxt-bits
 
 [npm-downloads-src]: https://img.shields.io/npm/dm/my-module.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-downloads-href]: https://npm.chart.dev/my-module
+[npm-downloads-href]: https://npm.chart.dev/nuxt-bits
 
 [license-src]: https://img.shields.io/npm/l/my-module.svg?style=flat&colorA=020420&colorB=00DC82
-[license-href]: https://npmjs.com/package/my-module
+[license-href]: https://npmjs.com/package/nuxt-bits
 
 [nuxt-src]: https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js
 [nuxt-href]: https://nuxt.com
+
+## Credits
+
+Ported Vue components by [DavidHDev](https://github.com/DavidHDev), author of the original [React Bits](https://reactbits.dev)
