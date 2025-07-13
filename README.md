@@ -43,8 +43,8 @@ export default defineNuxtConfig({
 	bits: {
 		prefix: "Foo" // BitsSplitText -> FooSplitText
 	}
-	//...
-})
+	// ...
+});
 ```
 
 Find out an example in the [playground](https://github.com/NicolaSpadari/nuxt-bits/blob/main/playground/app.vue)
