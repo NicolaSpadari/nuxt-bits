@@ -1,5 +1,5 @@
 <template>
-	<div ref="containerRef" class="w-full h-full overflow-hidden cursor-grab active:cursor-grabbing" />
+	<div ref="containerRef" class="size-full overflow-hidden cursor-grab active:cursor-grabbing" />
 </template>
 
 <script setup lang="ts">

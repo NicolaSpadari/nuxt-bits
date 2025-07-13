@@ -3,7 +3,7 @@
 		<svg
 			viewBox="-60 -75 720 900"
 			preserveAspectRatio="xMidYMid slice"
-			class="relative w-full h-full block [will-change:transform]"
+			class="relative size-full block [will-change:transform]"
 		>
 			<filter id="imgFilter">
 				<feTurbulence

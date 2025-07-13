@@ -1,5 +1,5 @@
 <template>
-	<canvas ref="canvasRef" class="block w-full h-full object-contain" />
+	<canvas ref="canvasRef" class="block size-full object-contain" />
 </template>
 
 <script setup lang="ts">

@@ -1,5 +1,5 @@
 <template>
-	<div ref="containerRef" class="relative w-full h-full overflow-hidden bg-transparent">
+	<div ref="containerRef" class="relative size-full overflow-hidden bg-transparent">
 		<h1 ref="titleRef" :class="`text-pressure-title ${className} ${flex ? 'flex justify-between' : ''} ${stroke ? 'stroke' : ''} uppercase text-center`" :style="titleStyle">
 			<span v-for="(char, i) in chars" :key="i" :ref="(el: HTMLSpanElement) => spansRef[i] = el" :data-char="char" class="inline-block">
 				{{ char }}

@@ -1,7 +1,7 @@
 <template>
 	<figure
 		ref="cardRef"
-		class="relative w-full h-full [perspective:800px] flex flex-col items-center justify-center"
+		class="relative size-full [perspective:800px] flex flex-col items-center justify-center"
 		:style="{
 			height: containerHeight,
 			width: containerWidth,

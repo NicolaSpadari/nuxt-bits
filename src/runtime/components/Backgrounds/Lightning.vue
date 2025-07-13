@@ -1,5 +1,5 @@
 <template>
-	<canvas ref="canvasRef" class="w-full h-full block mix-blend-screen relative" />
+	<canvas ref="canvasRef" class="size-full block mix-blend-screen relative" />
 </template>
 
 <script setup lang="ts">

@@ -1,5 +1,5 @@
 <template>
-	<div class="fixed top-0 left-0 z-50 pointer-events-none w-full h-full">
+	<div class="fixed top-0 left-0 z-50 pointer-events-none size-full">
 		<canvas id="fluid" ref="canvasRef" class="w-screen h-screen block" />
 	</div>
 </template>

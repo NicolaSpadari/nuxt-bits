@@ -1,15 +1,15 @@
 <template>
 	<div class="relative overflow-hidden">
-		<canvas ref="canvasRef" class="absolute top-0 left-0 w-full h-full" />
+		<canvas ref="canvasRef" class="absolute top-0 left-0 size-full" />
 
 		<div
 			v-if="outerVignette"
-			class="absolute top-0 left-0 w-full h-full pointer-events-none bg-[radial-gradient(circle,_rgba(0,0,0,0)_60%,_rgba(0,0,0,1)_100%)]"
+			class="absolute top-0 left-0 size-full pointer-events-none bg-[radial-gradient(circle,_rgba(0,0,0,0)_60%,_rgba(0,0,0,1)_100%)]"
 		/>
 
 		<div
 			v-if="centerVignette"
-			class="absolute top-0 left-0 w-full h-full pointer-events-none bg-[radial-gradient(circle,_rgba(0,0,0,0.8)_0%,_rgba(0,0,0,0)_60%)]"
+			class="absolute top-0 left-0 size-full pointer-events-none bg-[radial-gradient(circle,_rgba(0,0,0,0.8)_0%,_rgba(0,0,0,0)_60%)]"
 		/>
 	</div>
 </template>

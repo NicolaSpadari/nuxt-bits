@@ -1,6 +1,6 @@
 <template>
-	<div ref="containerRef" class="w-full h-full overflow-hidden relative z-2" :class="[className]" v-bind="$attrs">
-		<canvas ref="canvasRef" class="block w-full h-full" />
+	<div ref="containerRef" class="size-full overflow-hidden relative z-2" :class="[className]" v-bind="$attrs">
+		<canvas ref="canvasRef" class="block size-full" />
 	</div>
 </template>
 

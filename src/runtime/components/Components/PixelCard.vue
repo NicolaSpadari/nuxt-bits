@@ -10,7 +10,7 @@
 		@focus="finalNoFocus ? undefined : onFocus"
 		@blur="finalNoFocus ? undefined : onBlur"
 	>
-		<canvas ref="canvasRef" class="w-full h-full block" />
+		<canvas ref="canvasRef" class="size-full block" />
 
 		<slot />
 	</div>

@@ -1,5 +1,5 @@
 <template>
-	<div ref="ribbonsContainer" class="relative w-full h-full overflow-hidden" />
+	<div ref="ribbonsContainer" class="relative size-full overflow-hidden" />
 </template>
 
 <script setup lang="ts">

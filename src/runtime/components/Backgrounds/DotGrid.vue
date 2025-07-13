@@ -1,7 +1,7 @@
 <template>
 	<section :class="`flex items-center justify-center h-full w-full relative ${className}`" :style="style">
-		<div ref="wrapperRef" class="w-full h-full relative">
-			<canvas ref="canvasRef" class="absolute inset-0 w-full h-full pointer-events-none" />
+		<div ref="wrapperRef" class="size-full relative">
+			<canvas ref="canvasRef" class="absolute inset-0 size-full pointer-events-none" />
 		</div>
 	</section>
 </template>

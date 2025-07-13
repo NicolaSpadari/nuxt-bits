@@ -1,5 +1,5 @@
 <template>
-	<div ref="gridRef" class="w-full h-full overflow-hidden">
+	<div ref="gridRef" class="size-full overflow-hidden">
 		<section
 			class="relative flex justify-center items-center w-full h-screen overflow-hidden"
 			:style="{
@@ -24,11 +24,11 @@
 						class="relative h-[250px] min-w-[300px] flex-shrink-0"
 					>
 						<div
-							class="relative flex justify-center items-center bg-[#111] rounded-[10px] w-full h-full overflow-hidden text-[1.5rem] text-white"
+							class="relative flex justify-center items-center bg-[#111] rounded-[10px] size-full overflow-hidden text-[1.5rem] text-white"
 						>
 							<div
 								v-if="isImage(combinedItems[(rowIndex - 1) * 15 + (itemIndex - 1)])"
-								class="top-0 left-0 absolute bg-cover bg-center w-full h-full"
+								class="top-0 left-0 absolute bg-cover bg-center size-full"
 								:style="{
 									backgroundImage: `url(${combinedItems[(rowIndex - 1) * 15 + (itemIndex - 1)]})`,
 								}"
@@ -48,7 +48,7 @@
 				</div>
 			</div>
 
-			<div class="top-0 left-0 relative w-full h-full pointer-events-none" />
+			<div class="top-0 left-0 relative size-full pointer-events-none" />
 		</section>
 	</div>
 </template>

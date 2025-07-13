@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full h-full overflow-hidden">
+	<div class="size-full overflow-hidden">
 		<nav class="flex flex-col h-full m-0 p-0">
 			<div
 				v-for="(item, idx) in items"
@@ -18,7 +18,7 @@
 
 				<div
 					:ref="(el: HTMLDivElement) => (marqueeRefs[idx] = el)"
-					class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none bg-white translate-y-[101%]"
+					class="absolute top-0 left-0 size-full overflow-hidden pointer-events-none bg-white translate-y-[101%]"
 				>
 					<div :ref="(el: HTMLDivElement) => (marqueeInnerRefs[idx] = el)" class="h-full w-[200%] flex">
 						<div class="flex items-center relative h-full w-[200%] will-change-transform animate-marquee">

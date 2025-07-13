@@ -1,7 +1,7 @@
 <template>
 	<div
 		ref="containerRef"
-		class="relative z-[1] w-full h-full cursor-pointer text-center pt-8 overflow-hidden"
+		class="relative z-[1] size-full cursor-pointer text-center pt-8 overflow-hidden"
 		@click="props.trigger === 'click' ? handleTrigger() : undefined"
 		@mouseenter="props.trigger === 'hover' ? handleTrigger() : undefined"
 	>

@@ -1,11 +1,11 @@
 <template>
 	<div class="relative w-1/2 max-md:w-11/12 aspect-square" :style="wrapperStyle">
-		<div ref="sceneRef" class="grid w-full h-full" :style="sceneStyle">
+		<div ref="sceneRef" class="grid size-full" :style="sceneStyle">
 			<template v-for="(_, r) in cells" :key="`row-${r}`">
 				<div
 					v-for="(__, c) in cells"
 					:key="`${r}-${c}`"
-					class="cube relative w-full h-full aspect-square [transform-style:preserve-3d]"
+					class="cube relative size-full aspect-square [transform-style:preserve-3d]"
 					:data-row="r"
 					:data-col="c"
 				>

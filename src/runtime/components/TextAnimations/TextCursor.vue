@@ -1,5 +1,5 @@
 <template>
-	<div ref="containerRef" class="w-full h-full relative">
+	<div ref="containerRef" class="size-full relative">
 		<div class="absolute inset-0 pointer-events-none">
 			<Motion
 				v-for="item in trail"

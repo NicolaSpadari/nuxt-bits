@@ -1,5 +1,5 @@
 <template>
-	<div ref="containerRef" class="beams-container w-full h-full relative" />
+	<div ref="containerRef" class="beams-container size-full relative" />
 </template>
 
 <script setup lang="ts">

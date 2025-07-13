@@ -1,5 +1,5 @@
 <template>
-	<canvas ref="canvasRef" class="w-full h-full border-none block" />
+	<canvas ref="canvasRef" class="size-full border-none block" />
 </template>
 
 <script setup lang="ts">

@@ -3,7 +3,7 @@
 		ref="containerRef"
 		:class="className"
 		:style="{ backgroundColor, ...style }"
-		class="absolute top-0 left-0 w-full h-full overflow-hidden"
+		class="absolute top-0 left-0 size-full overflow-hidden"
 	>
 		<div
 			class="absolute top-0 left-0 bg-[#160000] rounded-full w-[0.5rem] h-[0.5rem]"
@@ -13,7 +13,7 @@
 			}"
 		/>
 
-		<canvas ref="canvasRef" class="block w-full h-full" />
+		<canvas ref="canvasRef" class="block size-full" />
 	</div>
 </template>
 

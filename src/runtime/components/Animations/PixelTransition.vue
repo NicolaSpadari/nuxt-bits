@@ -11,15 +11,15 @@
 	>
 		<div :style="{ paddingTop: props.aspectRatio }" />
 
-		<div class="absolute inset-0 w-full h-full">
+		<div class="absolute inset-0 size-full">
 			<slot name="firstContent" />
 		</div>
 
-		<div ref="activeRef" class="absolute inset-0 w-full h-full z-[2]" style="display: none">
+		<div ref="activeRef" class="absolute inset-0 size-full z-[2]" style="display: none">
 			<slot name="secondContent" />
 		</div>
 
-		<div ref="pixelGridRef" class="absolute inset-0 w-full h-full pointer-events-none z-[3]" />
+		<div ref="pixelGridRef" class="absolute inset-0 size-full pointer-events-none z-[3]" />
 	</div>
 </template>
 
