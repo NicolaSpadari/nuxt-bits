@@ -1,8 +1,10 @@
-import { addComponentsDir, createResolver, defineNuxtModule, installModule } from "@nuxt/kit";
+import { addComponentsDir, addImportsDir, createResolver, defineNuxtModule, installModule } from "@nuxt/kit";
 
 export interface ModuleOptions {
 	prefix?: string
 }
+
+const componentsFolders = ["Animations", "Backgrounds", "Components", "TextAnimations"];
 
 export default defineNuxtModule<ModuleOptions>({
 	meta: {
@@ -13,9 +15,9 @@ export default defineNuxtModule<ModuleOptions>({
 		prefix: "Bits"
 	},
 	async setup(options, nuxt) {
-		const resolver = createResolver(import.meta.url);
+		const { resolve } = createResolver(import.meta.url);
 
-		nuxt.options.css.push(resolver.resolve("./runtime/assets/styles.css"));
+		nuxt.options.css.push(resolve("./runtime/assets/styles.css"));
 
 		await installModule("@vueuse/nuxt");
 
@@ -25,17 +27,21 @@ export default defineNuxtModule<ModuleOptions>({
 				darkMode: "class",
 				content: {
 					files: [
-						resolver.resolve("./runtime/components/**/*.{vue,mjs,ts}"),
-						resolver.resolve("./runtime/*.{mjs,js,ts}")
+						resolve("./runtime/components/**/*.{vue,mjs,ts}"),
+						resolve("./runtime/*.{mjs,js,ts}")
 					]
 				}
 			}
 		});
 
-		addComponentsDir({
-			path: resolver.resolve("./runtime/components"),
-			prefix: options.prefix,
-			pathPrefix: false
+		componentsFolders.forEach((folder) => {
+			addComponentsDir({
+				path: resolve(`./runtime/components/${folder}`),
+				prefix: options.prefix,
+				pathPrefix: false
+			});
 		});
+
+		addImportsDir(resolve("./runtime/composables"));
 	}
 });
