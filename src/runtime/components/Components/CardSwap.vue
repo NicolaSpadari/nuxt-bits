@@ -61,7 +61,7 @@
 	});
 
 	const emit = defineEmits<{
-		"cardClick": [index: number]
+		cardClick: [index: number]
 	}>();
 
 	const makeSlot = (i: number, distX: number, distY: number, total: number): Slot => ({
