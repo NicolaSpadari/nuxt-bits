@@ -144,6 +144,6 @@
 
 <style scoped>
 .pixelated-image-card__pixel {
-  transition: none;
+ @apply transition-none;
 }
 </style>

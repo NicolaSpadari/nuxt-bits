@@ -263,13 +263,6 @@ void main() {
 
 <style scoped>
 canvas {
-  width: 100% !important;
-  height: 100% !important;
-  min-height: 100% !important;
-  display: block !important;
-  position: absolute !important;
-  top: 0 !important;
-  left: 0 !important;
-  z-index: 1 !important;
+  @apply !size-full !min-h-full !block !absolute !top-0 !left-0 !z-[1];
 }
 </style>

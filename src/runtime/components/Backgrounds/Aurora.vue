@@ -279,19 +279,8 @@ void main() {
 </script>
 
 <style scoped>
-div {
-  position: absolute !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
-  height: 100% !important;
-}
-
+div,
 :deep(canvas) {
-  position: absolute !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
-  height: 100% !important;
+@apply !absolute !top-0 !left-0 !size-full;
 }
 </style>

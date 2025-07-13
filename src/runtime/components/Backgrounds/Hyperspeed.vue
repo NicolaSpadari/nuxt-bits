@@ -1277,15 +1277,10 @@
 
 <style scoped>
 .hyperspeed-container {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  overflow: hidden;
+	@apply size-full relative overflow-hidden;
 }
 
 .hyperspeed-container :deep(canvas) {
-  width: 100% !important;
-  height: 100% !important;
-  display: block;
+	@apply !size-full !block;
 }
 </style>

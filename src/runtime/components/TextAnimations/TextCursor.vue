@@ -164,16 +164,11 @@
 <style scoped>
 .trail-enter-active,
 .trail-leave-active {
-  transition: all 0.5s ease;
+  @apply transition-all duration-500 ease-[ease]
 }
 
-.trail-enter-from {
-  opacity: 0;
-  transform: scale(0);
-}
-
+.trail-enter-from,
 .trail-leave-to {
-  opacity: 0;
-  transform: scale(0);
+	@apply opacity-0 transform scale-0;
 }
 </style>

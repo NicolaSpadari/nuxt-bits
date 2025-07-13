@@ -257,18 +257,11 @@ void main() {
 </script>
 
 <style scoped>
-div {
-  width: 100% !important;
-  height: 100% !important;
-  min-height: 100% !important;
-  display: block !important;
-}
-
+div,
 :deep(canvas) {
-  width: 100% !important;
-  height: 100% !important;
-  min-height: 100% !important;
-  display: block !important;
-  object-fit: cover !important;
+@apply !absolute !top-0 !left-0 !size-full;
+}
+:deep(canvas) {
+	@apply !object-cover;
 }
 </style>
