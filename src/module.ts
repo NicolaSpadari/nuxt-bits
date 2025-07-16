@@ -9,7 +9,10 @@ const componentsFolders = ["Animations", "Backgrounds", "Components", "TextAnima
 export default defineNuxtModule<ModuleOptions>({
 	meta: {
 		name: "nuxt-bits",
-		configKey: "bits"
+		configKey: "bits",
+		compatibility: {
+			nuxt: ">=3.6.0"
+		}
 	},
 	defaults: {
 		prefix: "Bits"
