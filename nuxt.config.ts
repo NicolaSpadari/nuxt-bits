@@ -3,8 +3,7 @@ export default defineNuxtConfig({
 		"@vueuse/nuxt",
 		"@nuxt/image",
 		"@nuxt/eslint",
-		"@nuxt/icon",
-		"@nuxtjs/tailwindcss"
+		"@nuxt/icon"
 	],
 	eslint: {
 		config: {
