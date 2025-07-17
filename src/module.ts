@@ -1,4 +1,4 @@
-import { addComponentsDir, addImportsDir, createResolver, defineNuxtModule, installModule } from "@nuxt/kit";
+import { addComponentsDir, addImportsDir, addVitePlugin, createResolver, defineNuxtModule, installModule } from "@nuxt/kit";
 
 export interface ModuleOptions {
 	prefix?: string
@@ -22,20 +22,14 @@ export default defineNuxtModule<ModuleOptions>({
 
 		nuxt.options.css.push(resolve("./runtime/assets/styles.css"));
 
-		await installModule("@vueuse/nuxt");
+		if (nuxt.options.builder === "@nuxt/vite-builder") {
+			const plugin = await import("@tailwindcss/vite").then((r) => r.default);
+			addVitePlugin(plugin);
+		} else {
+			nuxt.options.postcss.plugins["@tailwindcss/postcss"] = {};
+		}
 
-		await installModule("@nuxtjs/tailwindcss", {
-			exposeConfig: true,
-			config: {
-				darkMode: "class",
-				content: {
-					files: [
-						resolve("./runtime/components/**/*.{vue,mjs,ts}"),
-						resolve("./runtime/*.{mjs,js,ts}")
-					]
-				}
-			}
-		});
+		await installModule("@vueuse/nuxt");
 
 		componentsFolders.forEach((folder) => {
 			addComponentsDir({

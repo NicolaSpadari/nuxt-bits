@@ -1,2 +1,2 @@
 @import "tailwindcss";
-@source "../components"
+@import "@nuxt/ui";
