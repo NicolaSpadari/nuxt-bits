@@ -21,7 +21,6 @@
 			:curve-amount="400"
 			direction="left"
 			:interactive="true"
-			class-name="fill-white"
 		/>
 	</div>
 </template>
