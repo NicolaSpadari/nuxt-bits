@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v0.1.5
+
+[compare changes](https://github.com/NicolaSpadari/nuxt-bits/compare/v0.1.4...v0.1.5)
+
+### 🚀 Enhancements
+
+- Support nuxt ui and tailwind based projects ([d82fc52](https://github.com/NicolaSpadari/nuxt-bits/commit/d82fc52))
+
+### 🩹 Fixes
+
+- Remove nuxtui code tets integration ([d39346a](https://github.com/NicolaSpadari/nuxt-bits/commit/d39346a))
+
+### 🏡 Chore
+
+- **release:** V0.1.4 ([ba2ed30](https://github.com/NicolaSpadari/nuxt-bits/commit/ba2ed30))
+
+### ❤️ Contributors
+
+- Nicola Spadari ([@NicolaSpadari](https://github.com/NicolaSpadari))
+
 ## v0.1.4
 
 [compare changes](https://github.com/NicolaSpadari/nuxt-bits/compare/v0.1.3...v0.1.4)
