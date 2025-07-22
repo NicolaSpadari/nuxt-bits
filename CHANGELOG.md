@@ -1,6 +1,55 @@
 # Changelog
 
 
+## v0.1.5
+
+[compare changes](https://github.com/NicolaSpadari/nuxt-bits/compare/v0.1.4...v0.1.5)
+
+### 🚀 Enhancements
+
+- Support nuxt ui and tailwind based projects ([d82fc52](https://github.com/NicolaSpadari/nuxt-bits/commit/d82fc52))
+
+### 🩹 Fixes
+
+- Remove nuxtui code tets integration ([d39346a](https://github.com/NicolaSpadari/nuxt-bits/commit/d39346a))
+
+### 🏡 Chore
+
+- **release:** V0.1.4 ([ba2ed30](https://github.com/NicolaSpadari/nuxt-bits/commit/ba2ed30))
+
+### ❤️ Contributors
+
+- Nicola Spadari ([@NicolaSpadari](https://github.com/NicolaSpadari))
+
+## v0.1.4
+
+[compare changes](https://github.com/NicolaSpadari/nuxt-bits/compare/v0.1.3...v0.1.4)
+
+### 🚀 Enhancements
+
+- Remove unused ci ([dd0b9b0](https://github.com/NicolaSpadari/nuxt-bits/commit/dd0b9b0))
+- Add compatibility flag ([8146394](https://github.com/NicolaSpadari/nuxt-bits/commit/8146394))
+- Add ascii text ([b1e221d](https://github.com/NicolaSpadari/nuxt-bits/commit/b1e221d))
+- Add scramble text ([0d6805a](https://github.com/NicolaSpadari/nuxt-bits/commit/0d6805a))
+- Add glitch text ([b85cf8e](https://github.com/NicolaSpadari/nuxt-bits/commit/b85cf8e))
+- Add rotating text ([ac283c1](https://github.com/NicolaSpadari/nuxt-bits/commit/ac283c1))
+- Add noise ([7c560a1](https://github.com/NicolaSpadari/nuxt-bits/commit/7c560a1))
+- Add blob cursor ([f675c42](https://github.com/NicolaSpadari/nuxt-bits/commit/f675c42))
+- Add meta balls ([4fef7d9](https://github.com/NicolaSpadari/nuxt-bits/commit/4fef7d9))
+- Add image trail ([03f60f7](https://github.com/NicolaSpadari/nuxt-bits/commit/03f60f7))
+- Add stack ([1678561](https://github.com/NicolaSpadari/nuxt-bits/commit/1678561))
+- Add balatro ([70afd1d](https://github.com/NicolaSpadari/nuxt-bits/commit/70afd1d))
+- Add orb ([e2bb857](https://github.com/NicolaSpadari/nuxt-bits/commit/e2bb857))
+- Add ballpit ([b2a35ba](https://github.com/NicolaSpadari/nuxt-bits/commit/b2a35ba))
+
+### 🏡 Chore
+
+- **release:** V0.1.3 ([39a60e4](https://github.com/NicolaSpadari/nuxt-bits/commit/39a60e4))
+
+### ❤️ Contributors
+
+- Nicola Spadari ([@NicolaSpadari](https://github.com/NicolaSpadari))
+
 ## v0.1.3
 
 [compare changes](https://github.com/NicolaSpadari/nuxt-bits/compare/v0.1.2...v0.1.3)
