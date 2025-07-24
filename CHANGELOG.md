@@ -1,6 +1,36 @@
 # Changelog
 
 
+## v0.1.6
+
+[compare changes](https://github.com/NicolaSpadari/nuxt-bits/compare/v0.1.5...v0.1.6)
+
+### 🚀 Enhancements
+
+- Add scroll velocity ([1543d54](https://github.com/NicolaSpadari/nuxt-bits/commit/1543d54))
+- Add text type ([8c92128](https://github.com/NicolaSpadari/nuxt-bits/commit/8c92128))
+- Add target cursor ([3ee7eee](https://github.com/NicolaSpadari/nuxt-bits/commit/3ee7eee))
+- Add crosshair ([a36445e](https://github.com/NicolaSpadari/nuxt-bits/commit/a36445e))
+- Add star border ([889a81b](https://github.com/NicolaSpadari/nuxt-bits/commit/889a81b))
+- Add folder ([fab6180](https://github.com/NicolaSpadari/nuxt-bits/commit/fab6180))
+- Add magic bento ([6d21a77](https://github.com/NicolaSpadari/nuxt-bits/commit/6d21a77))
+- Add chroma grid ([c399b3a](https://github.com/NicolaSpadari/nuxt-bits/commit/c399b3a))
+- Add dark veil ([d16516f](https://github.com/NicolaSpadari/nuxt-bits/commit/d16516f))
+- Add grid distortion ([1f51583](https://github.com/NicolaSpadari/nuxt-bits/commit/1f51583))
+- Add galaxy ([7e9b5ea](https://github.com/NicolaSpadari/nuxt-bits/commit/7e9b5ea))
+- Add ripple grid ([81d10e8](https://github.com/NicolaSpadari/nuxt-bits/commit/81d10e8))
+- Add sticker peel ([39028bb](https://github.com/NicolaSpadari/nuxt-bits/commit/39028bb))
+- Add faulty terminal ([7f68372](https://github.com/NicolaSpadari/nuxt-bits/commit/7f68372))
+
+### 🏡 Chore
+
+- **release:** V0.1.5 ([18171ab](https://github.com/NicolaSpadari/nuxt-bits/commit/18171ab))
+- Switch to bun ([5e35ba6](https://github.com/NicolaSpadari/nuxt-bits/commit/5e35ba6))
+
+### ❤️ Contributors
+
+- Nicola Spadari ([@NicolaSpadari](https://github.com/NicolaSpadari))
+
 ## v0.1.5
 
 [compare changes](https://github.com/NicolaSpadari/nuxt-bits/compare/v0.1.4...v0.1.5)
