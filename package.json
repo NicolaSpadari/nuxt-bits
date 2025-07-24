@@ -2,7 +2,7 @@
 	"name": "nuxt-bits",
 	"type": "module",
 	"version": "0.1.5",
-	"packageManager": "pnpm@10.13.1",
+	"packageManager": "bun@1.2.19",
 	"description": "Vue bits integration for Nuxt 3",
 	"license": "MIT",
 	"repository": "NicolaSpadari/nuxt-bits",
@@ -29,6 +29,7 @@
 		"dev:build": "nuxi build playground",
 		"dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
 		"release": "npm run prepack && changelogen --release && npm publish && git push --follow-tags",
+		"preinstall": "npx only-allow bun",
 		"lint": "eslint . --fix"
 	},
 	"dependencies": {
