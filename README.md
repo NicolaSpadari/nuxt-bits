@@ -54,22 +54,22 @@ Find out an example in the [playground](https://github.com/NicolaSpadari/nuxt-bi
 
   ```bash
   # Install dependencies
-  pnpm install
+  bun install
 
   # Generate type stubs
-  pnpm run dev:prepare
+  bun run dev:prepare
 
   # Develop with the playground
-  pnpm run dev
+  bun run dev
 
   # Build the playground
-  pnpm run dev:build
+  bun run dev:build
 
   # Run ESLint
-  pnpm run lint
+  bun run lint
 
   # Release new version
-  pnpm run release
+  bun run release
   ```
 
 </details>
