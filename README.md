@@ -5,9 +5,7 @@
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-Nuxt 3 module for [Vue Bits](https://github.com/DavidHDev/vue-bits/)
-
-> This module is still a WIP
+Nuxt module for [Vue Bits](https://github.com/DavidHDev/vue-bits/)
 
 ## Features
 
@@ -56,36 +54,36 @@ Find out an example in the [playground](https://github.com/NicolaSpadari/nuxt-bi
 
   ```bash
   # Install dependencies
-  pnpm install
+  bun install
 
   # Generate type stubs
-  pnpm run dev:prepare
+  bun run dev:prepare
 
   # Develop with the playground
-  pnpm run dev
+  bun run dev
 
   # Build the playground
-  pnpm run dev:build
+  bun run dev:build
 
   # Run ESLint
-  pnpm run lint
+  bun run lint
 
   # Release new version
-  pnpm run release
+  bun run release
   ```
 
 </details>
 
-[npm-version-src]: https://img.shields.io/npm/v/my-module/latest.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-bits/latest.svg?style=flat&colorA=002E3B&colorB=00DC82
 [npm-version-href]: https://npmjs.com/package/nuxt-bits
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/my-module.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-bits.svg?style=flat&colorA=002E3B&colorB=00DC82
 [npm-downloads-href]: https://npm.chart.dev/nuxt-bits
 
-[license-src]: https://img.shields.io/npm/l/my-module.svg?style=flat&colorA=020420&colorB=00DC82
+[license-src]: https://img.shields.io/npm/l/nuxt-bits.svg?style=flat&colorA=002E3B&colorB=00DC82
 [license-href]: https://npmjs.com/package/nuxt-bits
 
-[nuxt-src]: https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js
+[nuxt-src]: https://img.shields.io/badge/Nuxt%204%20ready-002E3B?logo=nuxt&logoColor=#00DC82
 [nuxt-href]: https://nuxt.com
 
 ## Credits
