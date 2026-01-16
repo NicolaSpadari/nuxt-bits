@@ -17,6 +17,11 @@ export default defineNuxtModule<ModuleOptions>({
 	defaults: {
 		prefix: "Bits"
 	},
+	moduleDependencies: {
+		"@vueuse/nuxt": {
+			version: ">=14"
+		}
+	},
 	async setup(options, nuxt) {
 		const { resolve } = createResolver(import.meta.url);
 
@@ -28,8 +33,6 @@ export default defineNuxtModule<ModuleOptions>({
 		} else {
 			nuxt.options.postcss.plugins["@tailwindcss/postcss"] = {};
 		}
-
-		await installModule("@vueuse/nuxt");
 
 		componentsFolders.forEach((folder) => {
 			addComponentsDir({
